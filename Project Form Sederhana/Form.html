@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <title>Form Saya</title>
+    <h1><b>Form HTML</b></h1>
+    <img src="Asset/JX5MOG1s_400x400.jpg" width="200" height="200" alt="photo">
+
+    <body>
+        <hr>
+        <font color="yellow">
+        <div style="background-image: url(Asset/906438.png) ;" width="400" hight="400">
+        <fieldset>Form Pendaftaran Akun <br>
+        <form action="form_input" method="get" enctype="multipart/form-data">
+            Nama <input type="text" name="Nama" maxlength="100"><br>
+            Gender <input type="radio" name="Gender" value="Male">Male 
+                <input type="radio" name="Gender" value="Female">Female<br>
+            Address <input type="text" name="Address" maxlength="100"><br>
+            Country <select>
+                <option value="Indonesia">Indonesia</option>
+                <option value="Malaysia">Malaysia</option>
+                <option value="Singapura">Singapura</option>
+                <option value="Vietnam">Vietnam</option>
+                <option value="Filipina">Filipina</option> 
+                <option value="Thailand">Thailand</option>
+            </select><br>
+            Status <input type="radio" name="Status" value="Lajang">Lajang
+            <input type="radio" name="Status" value="Menikah">Menikah<br>
+            Hobby <input type="text" name="Hobby"><br>
+            E-Mail <input type="text" name="E-Mail" maxlength="70"><br>
+            Photo <input type="file" name="Photo"><br>
+            <fieldset>
+                <legend>Please Insert Your Username & Password</legend>
+                <label for="Username">Username</label>
+                <input type="text" name="Username" id="Username">
+                <label for="Password">Password</label>
+                <input type="text" name="Password" id="Password">
+            </fieldset>
+            Comment <input type="text" name="Comment"><br>
+            <input type="submit" name="form_input">
+            </font>
+        </form></fieldset></font></div>
+    </body>
+</html>
